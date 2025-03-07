@@ -3,9 +3,9 @@
 A classic machine learning problem of classifying the Titanic's passengers.  
 https://www.kaggle.com/c/titanic/overview
 
-Considered multiple models with different parameters.  
-Utilised principal component analysis.  
-RandomForestClassifier provided the best results with the accuracy of 0.775.  
+* Considered multiple models with different parameters.  
+* Utilised principal component analysis.  
+* RandomForestClassifier provided the best results with the accuracy of 0.775.  
 
 ## 2_Credit_card_fraud_detection
 The task was to develop a machine learning model to detect fraudulent credit card transactions using anonymized transaction data.  

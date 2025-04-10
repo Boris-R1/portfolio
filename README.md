@@ -37,3 +37,8 @@ https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-datase
 * Tested Dynamic Quantization.  
 * Applied Knowledge Distillation (ResNet-50 as a teacher, MobileNetV3-Small as a student). Param size dropped by 24.5 times, estimated total size decreased by 7.8 times, inference time decreased by 3.2 times, accuracy went to 0.683 (3% difference).  
 
+## 6_Boosting_pipeline_with_feature_selection
+The task implied developing a boosting pipeline on a dataset with highly imbalanced classes and a large number of features.
+
+* Compared different approaches to feature-selection: permutation importance, SHAP importance, get_feature_importance() from CatBoostClassifier, get_score() from XGBoost, manual removal of multicollinear features.
+* Trained two classification models: CatBoost and XGBoost, and compared their performance.
